@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.calculator-container {
+  width: 300px;
+  margin: 40px auto;
+  padding: 16px;
+  background-color: whitesmoke;
+  border-radius: 12px;
+}
+
+/* 表示欄 */
+.display {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: right;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+/* ボタン配置 */
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+/* ボタン */
+.button-grid button {
+  padding: 16px;
+  font-size: 18px;
+  background-color: #bfe3ef;
+  border: none;
+  border-radius: 10px;
+}
